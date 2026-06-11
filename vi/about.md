@@ -10,10 +10,9 @@ translation_url: /about.html
 ## Thông tin cá nhân
 * **Họ tên:** Đỗ Thành Đạt
 * **Địa điểm:** Đà Nẵng, Việt Nam
-* **Email:** [dothanhdat2003.work@gmail.com](mailto:dothanhdat2003.work@gmail.com)
+* **Email:** dothanhdat2003.work@gmail.com
 * **Liên hệ:** (+84) 812174123
-* **Hồ sơ:** [GitHub](https://github.com/dothanhdat2003) · [LinkedIn](https://linkedin.com/in/dothanhdat2003)
-
+* **Hồ sơ:** [GitHub](https://github.com/dothanhdat2003) 
 ---
 
 ## Học vấn

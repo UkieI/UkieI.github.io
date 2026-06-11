@@ -10,7 +10,7 @@ translation_url: /
 
 AI Engineer & NLP Specialist. Mình tập trung vào huấn luyện mô hình ngôn ngữ, xây dựng hệ thống tìm kiếm ngữ nghĩa và thiết kế các pipeline truy xuất thông tin thông minh. Hiện mình đang ở Đà Nẵng, Việt Nam.
 
-[GitHub](https://github.com/UkieI) · [Email](mailto:dothanhdat2003.work@gmail.com) · (+84) 812174123
+[GitHub](https://github.com/UkieI) · dothanhdat2003.work@gmail.com · (+84) 812174123
 
 ---
 

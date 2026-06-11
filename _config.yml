@@ -11,17 +11,17 @@ email: "dothanhdat2003.work@gmail.com"
 description: >-
   AI Engineer & NLP Specialist portfolio and blog.
 
+
 # ------------------------------------------
 # URLs & Paths (CRITICAL FOR GITHUB PAGES)
 # ------------------------------------------
-baseurl: "" 
-url: "https://github.com/dothanhdat2003" # Placeholder or GitHub page URL
+baseurl: ""
+url: "https://github.com/UkieI" # Placeholder or GitHub page URL
 
 # ------------------------------------------
 # Social Profiles (Displayed in footer)
 # ------------------------------------------
-github_username:  dothanhdat2003
-linkedin_username: dothanhdat2003
+github_username: UkieI
 
 # ------------------------------------------
 # Build Settings

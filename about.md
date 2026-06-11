@@ -10,9 +10,9 @@ translation_url: /vi/about.html
 ## Personal Information
 * **Full Name:** Đỗ Thành Đạt
 * **Location:** Da Nang, Viet Nam
-* **Email:** [dothanhdat2003.work@gmail.com](mailto:dothanhdat2003.work@gmail.com)
+* **Email:** dothanhdat2003.work@gmail.com
 * **Contact:** (+84) 812174123
-* **Profiles:** [GitHub](https://github.com/dothanhdat2003) · [LinkedIn](https://linkedin.com/in/dothanhdat2003)
+* **Profiles:** [GitHub](https://github.com/dothanhdat2003)
 
 ---
 

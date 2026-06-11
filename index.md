@@ -10,7 +10,7 @@ translation_url: /vi/
 
 AI Engineer & NLP Specialist. Focused on training language models, building semantic search engines, and designing intelligent retrieval pipelines. Based in Da Nang, Viet Nam.
 
-[GitHub](https://github.com/UkieI) · [Email](mailto:dothanhdat2003.work@gmail.com) · (+84) 812174123
+[GitHub](https://github.com/UkieI) · dothanhdat2003.work@gmail.com · (+84) 812174123
 
 ---
 
