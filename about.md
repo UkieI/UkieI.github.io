@@ -28,7 +28,7 @@ translation_url: /vi/about.html
 
 | Category | Technologies & Frameworks |
 | :--- | :--- |
-| **Programming** | Python, Java, SQL, HTML/CSS |
+| **Programming** | Python, Java, SQL, Flutter |
 | **Deep Learning & ML** | Neural Networks, LSTM, Transformers, CRF, Softmax |
 | **Frameworks & Libraries** | PyTorch, Hugging Face (Transformers, PEFT, TRL), Scikit-learn, PaddleOCR, NLTK, spaCy, NumPy, Pandas, OpenCV |
 | **Databases** | Qdrant (Vector DB), Neo4j (Graph DB), PostgreSQL, SQLite, Elasticsearch |

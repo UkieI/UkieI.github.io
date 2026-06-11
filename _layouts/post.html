@@ -42,3 +42,35 @@ layout: default
 <hr style="margin-bottom: 2rem;">
 
 {{ content }}
+
+{% if page.related_ref %}
+{% assign related_posts = site.posts | where: "related_ref", page.related_ref | where: "lang", current_lang %}
+{% assign related_title = "Related Posts" %}
+{% assign related_empty = "No related posts yet." %}
+{% assign related_date_format = "%B %d, %Y" %}
+{% if current_lang == "vi" %}
+  {% assign related_title = "Bài viết liên quan" %}
+  {% assign related_empty = "Chưa có bài viết liên quan." %}
+  {% assign related_date_format = "%d/%m/%Y" %}
+{% endif %}
+
+<section class="related-posts">
+  <h2>{{ related_title }}</h2>
+  <ul>
+    {% assign related_count = 0 %}
+    {% for post in related_posts %}
+      {% unless post.url == page.url %}
+        {% assign related_count = related_count | plus: 1 %}
+        <li>
+          <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a>
+          <span>{{ post.date | date: related_date_format }}</span>
+          {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+        </li>
+      {% endunless %}
+    {% endfor %}
+    {% if related_count == 0 %}
+      <li>{{ related_empty }}</li>
+    {% endif %}
+  </ul>
+</section>
+{% endif %}

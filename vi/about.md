@@ -27,7 +27,7 @@ translation_url: /about.html
 
 | Nhóm | Công nghệ & Framework |
 | :--- | :--- |
-| **Lập trình** | Python, Java, SQL, HTML/CSS |
+| **Lập trình** | Python, Java, SQL, Flutter |
 | **Deep Learning & ML** | Neural Networks, LSTM, Transformers, CRF, Softmax |
 | **Frameworks & Libraries** | PyTorch, Hugging Face (Transformers, PEFT, TRL), Scikit-learn, PaddleOCR, NLTK, spaCy, NumPy, Pandas, OpenCV |
 | **Cơ sở dữ liệu** | Qdrant (Vector DB), Neo4j (Graph DB), PostgreSQL, SQLite, Elasticsearch |

@@ -1,0 +1,39 @@
+- id: legal-basis-search
+  order: 1
+  featured: true
+  links:
+    post: "/blog/legal-document-research-overview/"
+    source: ""
+    demo: "https://drive.google.com/drive/folders/1iytdegNUbnb8_9_yNeKP1Od-xMdF6YK3?usp=sharing"
+  tech:
+    - PyTorch
+    - PaddleOCR
+    - Qdrant
+    - Neo4j
+    - Elasticsearch
+  en:
+    title: "Legal-Basis Search & Recommendation System"
+    description: "Hybrid Graph-Vector Retrieval system for educational institutions. Combines PaddleOCR, PhoBERT-CRF for entity extraction, and a dual Qdrant and Neo4j backend."
+  vi:
+    title: "Hệ thống tìm kiếm và đề xuất căn cứ pháp lý"
+    description: "Hệ thống truy xuất hybrid graph-vector cho môi trường cơ sở giáo dục. Dự án kết hợp PaddleOCR, PhoBERT-CRF để trích xuất thực thể và backend sử dụng Qdrant cùng Neo4j."
+
+- id: legal-document-rag
+  order: 2
+  featured: true
+  links:
+    post: ""
+    source: ""
+    demo: ""
+  tech:
+    - LangChain
+    - Qwen2.5
+    - Qdrant
+    - FastAPI
+    - Gemini API
+  en:
+    title: "RAG on Legal Documents"
+    description: "Vietnamese legal document RAG chatbot utilizing Gemini API, LangChain, Qwen2.5, and FastAPI. Includes web crawling, chunking, and intent/entity/sentiment analysis."
+  vi:
+    title: "RAG trên văn bản pháp lý"
+    description: "Chatbot RAG cho văn bản pháp lý tiếng Việt, sử dụng Gemini API, LangChain, Qwen2.5 và FastAPI. Dự án bao gồm crawling dữ liệu, chunking và phân tích intent/entity/sentiment."

@@ -37,6 +37,43 @@
   --ease:         all 0.15s ease;
 }
 
+/* ==========================================
+   RELATED POSTS
+   ========================================== */
+.related-posts {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.related-posts h2 {
+  font-size: 1.15rem;
+  margin-top: 0;
+}
+
+.related-posts ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.related-posts li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.related-posts span {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--text-3);
+  font-size: 0.8rem;
+}
+
+.related-posts p {
+  margin: 0.35rem 0 0;
+  color: var(--text-2);
+  font-size: 0.9rem;
+}
+
 /* --- Reset --- */
 *, *::before, *::after {
   box-sizing: border-box;
