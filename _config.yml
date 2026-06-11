@@ -1,0 +1,48 @@
+# ==========================================
+# Jekyll Configuration for GitHub Pages
+# ==========================================
+# IMPORTANT: Replace the placeholder values below with your personal details.
+
+# ------------------------------------------
+# Site Settings
+# ------------------------------------------
+title: "Do Thanh Dat | AI Engineer"
+email: "dothanhdat2003.work@gmail.com"
+description: >-
+  AI Engineer & NLP Specialist portfolio and blog.
+
+# ------------------------------------------
+# URLs & Paths (CRITICAL FOR GITHUB PAGES)
+# ------------------------------------------
+baseurl: "" 
+url: "https://github.com/dothanhdat2003" # Placeholder or GitHub page URL
+
+# ------------------------------------------
+# Social Profiles (Displayed in footer)
+# ------------------------------------------
+github_username:  dothanhdat2003
+linkedin_username: dothanhdat2003
+
+# ------------------------------------------
+# Build Settings
+# ------------------------------------------
+# We use custom stylesheet assets/css/style.css, so no default theme gem is required here.
+# This prevents Ruby compatibility issues.
+markdown: kramdown
+highlighter: rouge
+
+# Plugins supported natively by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude these files/directories from the compiled site build
+exclude:
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

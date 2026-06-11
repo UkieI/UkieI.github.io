@@ -1,0 +1,39 @@
+{% assign current_lang = page.lang | default: "en" %}
+{% if current_lang == "vi" %}
+  {% assign home_url = "/vi/" %}
+  {% assign about_url = "/vi/about.html" %}
+  {% assign writing_label = "Bài viết" %}
+  {% assign about_label = "Giới thiệu" %}
+  {% assign switch_label = "EN" %}
+  {% assign default_switch_url = "/" %}
+{% else %}
+  {% assign home_url = "/" %}
+  {% assign about_url = "/about.html" %}
+  {% assign writing_label = "Writing" %}
+  {% assign about_label = "About" %}
+  {% assign switch_label = "VI" %}
+  {% assign default_switch_url = "/vi/" %}
+{% endif %}
+
+{% assign switch_url = page.translation_url | default: default_switch_url %}
+{% if page.ref %}
+  {% assign translated_posts = site.posts | where: "ref", page.ref | where_exp: "post", "post.lang != current_lang" %}
+  {% if translated_posts.size > 0 %}
+    {% assign switch_url = translated_posts.first.url %}
+  {% endif %}
+{% endif %}
+
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <a href="{{ home_url | relative_url }}" class="site-logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+      {{ site.title | split: '|' | first | strip }}
+    </a>
+
+    <nav class="site-nav">
+      <a href="{{ home_url | relative_url }}" class="nav-link {% if page.url == home_url or page.url == '/index.html' %}active{% endif %}">{{ writing_label }}</a>
+      <a href="{{ about_url | relative_url }}" class="nav-link {% if page.url == about_url %}active{% endif %}">{{ about_label }}</a>
+      <a href="{{ switch_url | relative_url }}" class="nav-link lang-switch">{{ switch_label }}</a>
+    </nav>
+  </div>
+</header>
